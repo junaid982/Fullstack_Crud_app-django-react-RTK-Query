@@ -1,0 +1,106 @@
+
+Steps To Create Django Crud Appliaction 
+==============================================================
+
+1 - Setup Virtual Enviroment 
+
+# install library 
+
+>>> pip install virtualenv 
+
+# Create Virtual enviroment 
+>>>virtualenv env 
+
+# Activate Virtual enviroment 
+>>> env\Scripts\activate
+
+==============================================================
+
+2 - Install Required Libraries
+
+>>> pip install django
+>>> pip install djangorestframework
+>>> pip install django-cors-headers
+
+==============================================================
+
+3 - Create django project
+
+>>>django-admin startproject EmpManagement
+
+# Change Directory to alog with manage.py file 
+>>> cd EmpManagement
+
+==============================================================
+
+4  - Create Application 
+
+>>> python manage.py startapp EmpDetails
+
+# open vs code 
+>>> code .
+
+==============================================================
+
+6 - install rest_framework and application 
+
+inside a settings.py 
+
+==============================================================
+
+7 - Create Model to store data  
+
+8 - register to admin 
+==============================================================
+
+9 - Create Query set for your model 
+
+>>> python manage.py makemigrations
+
+# Execute query set to create a tables  
+>>> python manage.py migrate 
+
+# Create super user to access django admin pane 
+>>> python manage.py createsuperuser
+
+
+==============================================================
+
+10 - runserver to check everything is ok 
+
+>>> python manage.py runserver
+
+==============================================================
+
+11 - Create Serializer
+
+
+==============================================================
+
+12 - Create Views
+
+==============================================================
+
+13 - Create Urls 
+
+	Project Level and Application Level 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
